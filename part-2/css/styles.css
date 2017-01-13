@@ -27,3 +27,40 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+.film-poster i {color: red;
+position: absolute;
+right: 8px;
+top:8px;}
+
+.film {
+  border: 2px solid grey;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.film-poster {
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+
+figure {
+  display: inline;
+  max-width: 30%;
+}
+
+.film-description {
+  display: inline;
+  max-width: 65%;
+}
+
+.film {
+  position: relative;
+}
+
+.film-details .action-like {
+  color: red;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+}
